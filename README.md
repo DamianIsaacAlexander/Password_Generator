@@ -1,7 +1,12 @@
 # Password Generator
 
-Created a password generator that generates a password depending on selected user input using Math.random();.
-The password generator loops through and chooses 4 functions for each character until length is reached
+A password generator that generates a password depending on selected user input.
 
-https://damianisaacalexander.github.io/PersonalProjects/Password_Generator/index.html
-https://github.com/DamianIsaacAlexander/PersonalProjects/tree/master/Password_Generator
+![Password Gen Image](https://i.gyazo.com/18cd3eda2d181cdc19d056662f35ac65.png);
+
+## Built With
+*Javascript
+*HTML
+*CSS
+
+## Deployed
