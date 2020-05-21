@@ -10,3 +10,5 @@ A password generator that generates a password depending on selected user input.
 *CSS
 
 ## Deployed
+
+https://damianisaacalexander.github.io/Password_Generator/
