@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9fbfd;
+  font-family: sans-serif;
+}
+
+main
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+header {
+  color: hsl(206, 17%, 28%);
+  padding-top: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+  color: hsl(206, 17%, 28%);
+  font-size: 18px;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px 40px;
+}
+.card-header
+{
+  text-align: center;
+}
+.card-header::after {
+  background: #e7e9eb;
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 100%;
+}
+
+.card-body {
+  min-height: 100px;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.card-footer::before {
+  background: #e7e9eb;
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 100%;
+}
+
+.card-footer::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+button:focus
+{
+  outline: none;
+}
+.generate-btn 
+{
+  background-color: hsl(360, 91%, 36%);
+  border-radius: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+.output-container
+{
+  background-color: rgb(255, 175, 175);
+  border-style: dashed;
+  border-width: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 400px;
+  min-height: 50px;
+  text-align: right;
+  word-break: break-all;
+}
+p
+{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.copy-password
+{
+  display: inline-block;
+}
+.settings-container
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+}
+.setting
+{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+input
+{
+	float: right;
+}
+input[type=checkbox]
+{
+  transform: scale(1.4);
+}
+  
+@media (max-width: 690px) {
+  .generate-btn {
+    font-size: 1rem;
+    margin: 16px 0px 0px 0px;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .generate-btn {
+    font-size: 0.8rem;
+  }
+}
